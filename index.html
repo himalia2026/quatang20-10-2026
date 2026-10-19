@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Món quà 20/10 💝</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💝</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Tim / hoa bay lên nền trời -->
+    <div id="hearts" class="hearts" aria-hidden="true"></div>
+
+    <!-- Sân khấu: lời chúc + hộp quà -->
+    <main id="stage" class="stage">
+        <p class="badge">🌷 20 / 10 — Ngày Phụ nữ Việt Nam 🌷</p>
+        <h1 class="title">Gửi tặng Chị Ngọc món quà nhỏ</h1>
+        <p class="subtitle">Ấn vào hộp quà để mở nhé 💝</p>
+
+        <button id="gift" class="gift" aria-label="Mở hộp quà">
+            <span class="gift__lid">
+                <span class="gift__ribbon-lid"></span>
+                <span class="gift__bow"></span>
+            </span>
+            <span class="gift__box">
+                <span class="gift__ribbon"></span>
+            </span>
+            <span class="gift__glow"></span>
+        </button>
+
+        <p class="hint">Dành riêng cho Chị Ngọc 💐</p>
+    </main>
+
+    <!-- Video bất ngờ (ẩn ban đầu) -->
+    <div id="scare" class="scare">
+        <video id="video" src="assets/surprise.mp4" loop preload="auto"></video>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
